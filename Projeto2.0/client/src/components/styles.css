@@ -1,0 +1,110 @@
+.usuario{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    background: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.usuario p{
+    color: #4f7012;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;   
+}
+
+
+.music-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+
+}
+
+.music-list article {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.music-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #81b71a;
+    background: none;
+    margin-top: 10px;
+    color: #81b71a;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.music-list article p{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.music-list article p button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #b71a1a;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.music-list article p button:hover{
+    opacity: 0.7;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #81b71a;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left-button {
+    margin-right: 20px;
+}
+
+.actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.actions button:hover{
+    opacity: 0.7;
+}
+
+.actions button[disabled]:hover {
+    opacity: 0.5;
+}
